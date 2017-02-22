@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACC44E7BAFEBEE31CEDC8192 /* libPods-WBSocketDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB8CD13A6BA65CAA9AC45F1 /* libPods-WBSocketDemo.a */; };
+		DCA422111E58253300155051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA422101E58253300155051 /* main.m */; };
+		DCA422141E58253300155051 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA422131E58253300155051 /* AppDelegate.m */; };
+		DCA422171E58253300155051 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA422161E58253300155051 /* ViewController.m */; };
+		DCA4221A1E58253300155051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA422181E58253300155051 /* Main.storyboard */; };
+		DCA4221C1E58253300155051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA4221B1E58253300155051 /* Assets.xcassets */; };
+		DCA4221F1E58253300155051 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA4221D1E58253300155051 /* LaunchScreen.storyboard */; };
+		DCA4222A1E58253300155051 /* WBSocketDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA422291E58253300155051 /* WBSocketDemoTests.m */; };
+		DCA422351E58253300155051 /* WBSocketDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA422341E58253300155051 /* WBSocketDemoUITests.m */; };
+		DCA422481E58353000155051 /* WBSocketConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA422471E58353000155051 /* WBSocketConnection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCA422261E58253300155051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCA422041E58253300155051 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA4220B1E58253300155051;
+			remoteInfo = WBSocketDemo;
+		};
+		DCA422311E58253300155051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCA422041E58253300155051 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA4220B1E58253300155051;
+			remoteInfo = WBSocketDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CC852F10B06CEE1D185ACB6 /* Pods-WBSocketDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBSocketDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WBSocketDemo/Pods-WBSocketDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4BB8CD13A6BA65CAA9AC45F1 /* libPods-WBSocketDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WBSocketDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DC42AAA0CBCED64DDD22AE /* Pods-WBSocketDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBSocketDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WBSocketDemo/Pods-WBSocketDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DCA4220C1E58253300155051 /* WBSocketDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBSocketDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA422101E58253300155051 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCA422121E58253300155051 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCA422131E58253300155051 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCA422151E58253300155051 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCA422161E58253300155051 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCA422191E58253300155051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCA4221B1E58253300155051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCA4221E1E58253300155051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCA422201E58253300155051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA422251E58253300155051 /* WBSocketDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBSocketDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA422291E58253300155051 /* WBSocketDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBSocketDemoTests.m; sourceTree = "<group>"; };
+		DCA4222B1E58253300155051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA422301E58253300155051 /* WBSocketDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBSocketDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA422341E58253300155051 /* WBSocketDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBSocketDemoUITests.m; sourceTree = "<group>"; };
+		DCA422361E58253300155051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA422421E58281600155051 /* WBSocketConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBSocketConfig.h; sourceTree = "<group>"; };
+		DCA422461E58353000155051 /* WBSocketConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSocketConnection.h; sourceTree = "<group>"; };
+		DCA422471E58353000155051 /* WBSocketConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBSocketConnection.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCA422091E58253300155051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC44E7BAFEBEE31CEDC8192 /* libPods-WBSocketDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA422221E58253300155051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA4222D1E58253300155051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D36ED9DAF974F928F23B03C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BB8CD13A6BA65CAA9AC45F1 /* libPods-WBSocketDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC246D53977F10F434AA0896 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CC852F10B06CEE1D185ACB6 /* Pods-WBSocketDemo.debug.xcconfig */,
+				D5DC42AAA0CBCED64DDD22AE /* Pods-WBSocketDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCA422031E58253300155051 = {
+			isa = PBXGroup;
+			children = (
+				DCA422421E58281600155051 /* WBSocketConfig.h */,
+				DCA422461E58353000155051 /* WBSocketConnection.h */,
+				DCA422471E58353000155051 /* WBSocketConnection.m */,
+				DCA4220E1E58253300155051 /* WBSocketDemo */,
+				DCA422281E58253300155051 /* WBSocketDemoTests */,
+				DCA422331E58253300155051 /* WBSocketDemoUITests */,
+				DCA4220D1E58253300155051 /* Products */,
+				DC246D53977F10F434AA0896 /* Pods */,
+				D36ED9DAF974F928F23B03C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCA4220D1E58253300155051 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4220C1E58253300155051 /* WBSocketDemo.app */,
+				DCA422251E58253300155051 /* WBSocketDemoTests.xctest */,
+				DCA422301E58253300155051 /* WBSocketDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCA4220E1E58253300155051 /* WBSocketDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DCA422121E58253300155051 /* AppDelegate.h */,
+				DCA422131E58253300155051 /* AppDelegate.m */,
+				DCA422151E58253300155051 /* ViewController.h */,
+				DCA422161E58253300155051 /* ViewController.m */,
+				DCA422181E58253300155051 /* Main.storyboard */,
+				DCA4221B1E58253300155051 /* Assets.xcassets */,
+				DCA4221D1E58253300155051 /* LaunchScreen.storyboard */,
+				DCA422201E58253300155051 /* Info.plist */,
+				DCA4220F1E58253300155051 /* Supporting Files */,
+			);
+			path = WBSocketDemo;
+			sourceTree = "<group>";
+		};
+		DCA4220F1E58253300155051 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCA422101E58253300155051 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCA422281E58253300155051 /* WBSocketDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCA422291E58253300155051 /* WBSocketDemoTests.m */,
+				DCA4222B1E58253300155051 /* Info.plist */,
+			);
+			path = WBSocketDemoTests;
+			sourceTree = "<group>";
+		};
+		DCA422331E58253300155051 /* WBSocketDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCA422341E58253300155051 /* WBSocketDemoUITests.m */,
+				DCA422361E58253300155051 /* Info.plist */,
+			);
+			path = WBSocketDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCA4220B1E58253300155051 /* WBSocketDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA422391E58253300155051 /* Build configuration list for PBXNativeTarget "WBSocketDemo" */;
+			buildPhases = (
+				16683ED77437F0B526409D83 /* [CP] Check Pods Manifest.lock */,
+				DCA422081E58253300155051 /* Sources */,
+				DCA422091E58253300155051 /* Frameworks */,
+				DCA4220A1E58253300155051 /* Resources */,
+				C74ADB8D1B40953999827C6F /* [CP] Embed Pods Frameworks */,
+				33AC16DF10FE81A185DB228E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WBSocketDemo;
+			productName = WBSocketDemo;
+			productReference = DCA4220C1E58253300155051 /* WBSocketDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCA422241E58253300155051 /* WBSocketDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA4223C1E58253300155051 /* Build configuration list for PBXNativeTarget "WBSocketDemoTests" */;
+			buildPhases = (
+				DCA422211E58253300155051 /* Sources */,
+				DCA422221E58253300155051 /* Frameworks */,
+				DCA422231E58253300155051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA422271E58253300155051 /* PBXTargetDependency */,
+			);
+			name = WBSocketDemoTests;
+			productName = WBSocketDemoTests;
+			productReference = DCA422251E58253300155051 /* WBSocketDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCA4222F1E58253300155051 /* WBSocketDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA4223F1E58253300155051 /* Build configuration list for PBXNativeTarget "WBSocketDemoUITests" */;
+			buildPhases = (
+				DCA4222C1E58253300155051 /* Sources */,
+				DCA4222D1E58253300155051 /* Frameworks */,
+				DCA4222E1E58253300155051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA422321E58253300155051 /* PBXTargetDependency */,
+			);
+			name = WBSocketDemoUITests;
+			productName = WBSocketDemoUITests;
+			productReference = DCA422301E58253300155051 /* WBSocketDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCA422041E58253300155051 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "qinian-macf";
+				TargetAttributes = {
+					DCA4220B1E58253300155051 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					DCA422241E58253300155051 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCA4220B1E58253300155051;
+					};
+					DCA4222F1E58253300155051 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCA4220B1E58253300155051;
+					};
+				};
+			};
+			buildConfigurationList = DCA422071E58253300155051 /* Build configuration list for PBXProject "WBSocketDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCA422031E58253300155051;
+			productRefGroup = DCA4220D1E58253300155051 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCA4220B1E58253300155051 /* WBSocketDemo */,
+				DCA422241E58253300155051 /* WBSocketDemoTests */,
+				DCA4222F1E58253300155051 /* WBSocketDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCA4220A1E58253300155051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA4221F1E58253300155051 /* LaunchScreen.storyboard in Resources */,
+				DCA4221C1E58253300155051 /* Assets.xcassets in Resources */,
+				DCA4221A1E58253300155051 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA422231E58253300155051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA4222E1E58253300155051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16683ED77437F0B526409D83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		33AC16DF10FE81A185DB228E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WBSocketDemo/Pods-WBSocketDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C74ADB8D1B40953999827C6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WBSocketDemo/Pods-WBSocketDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCA422081E58253300155051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA422171E58253300155051 /* ViewController.m in Sources */,
+				DCA422481E58353000155051 /* WBSocketConnection.m in Sources */,
+				DCA422141E58253300155051 /* AppDelegate.m in Sources */,
+				DCA422111E58253300155051 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA422211E58253300155051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA4222A1E58253300155051 /* WBSocketDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA4222C1E58253300155051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA422351E58253300155051 /* WBSocketDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCA422271E58253300155051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA4220B1E58253300155051 /* WBSocketDemo */;
+			targetProxy = DCA422261E58253300155051 /* PBXContainerItemProxy */;
+		};
+		DCA422321E58253300155051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA4220B1E58253300155051 /* WBSocketDemo */;
+			targetProxy = DCA422311E58253300155051 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCA422181E58253300155051 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA422191E58253300155051 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCA4221D1E58253300155051 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA4221E1E58253300155051 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCA422371E58253300155051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCA422381E58253300155051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCA4223A1E58253300155051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CC852F10B06CEE1D185ACB6 /* Pods-WBSocketDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WBSocketDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinian2015.WBSocketDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+			};
+			name = Debug;
+		};
+		DCA4223B1E58253300155051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5DC42AAA0CBCED64DDD22AE /* Pods-WBSocketDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WBSocketDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinian2015.WBSocketDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+			};
+			name = Release;
+		};
+		DCA4223D1E58253300155051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WBSocketDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinian2015.WBSocketDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WBSocketDemo.app/WBSocketDemo";
+			};
+			name = Debug;
+		};
+		DCA4223E1E58253300155051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WBSocketDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinian2015.WBSocketDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WBSocketDemo.app/WBSocketDemo";
+			};
+			name = Release;
+		};
+		DCA422401E58253300155051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WBSocketDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinian2015.WBSocketDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WBSocketDemo;
+			};
+			name = Debug;
+		};
+		DCA422411E58253300155051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WBSocketDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinian2015.WBSocketDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WBSocketDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCA422071E58253300155051 /* Build configuration list for PBXProject "WBSocketDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA422371E58253300155051 /* Debug */,
+				DCA422381E58253300155051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA422391E58253300155051 /* Build configuration list for PBXNativeTarget "WBSocketDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA4223A1E58253300155051 /* Debug */,
+				DCA4223B1E58253300155051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA4223C1E58253300155051 /* Build configuration list for PBXNativeTarget "WBSocketDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA4223D1E58253300155051 /* Debug */,
+				DCA4223E1E58253300155051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA4223F1E58253300155051 /* Build configuration list for PBXNativeTarget "WBSocketDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA422401E58253300155051 /* Debug */,
+				DCA422411E58253300155051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCA422041E58253300155051 /* Project object */;
+}
