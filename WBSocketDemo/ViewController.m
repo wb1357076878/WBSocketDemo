@@ -21,7 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
     _serverHost = @"www.baidu.com";
     _serverPort = 80;
     [self openConnection];
