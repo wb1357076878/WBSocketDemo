@@ -19,10 +19,13 @@
 @implementation WBSocketConnection
 
 - (instancetype)init {
+    
     if (self = [super init]) {
+        
         _asyncSocket = [[GCDAsyncSocket alloc] initWithDelegate:self delegateQueue:dispatch_get_main_queue()];
     }
     return self;
+    
 }
 
 - (void)dealloc {
