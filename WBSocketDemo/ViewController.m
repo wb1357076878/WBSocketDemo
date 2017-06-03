@@ -21,7 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    // 测试
     _serverHost = @"www.baidu.com";
     _serverPort = 80;
     [self openConnection];
