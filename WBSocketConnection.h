@@ -12,7 +12,9 @@
 @protocol WBSocketConnectionDelegate <NSObject>
 
 - (void)didDisconnectWithError:(NSError *)error;
+
 - (void)didConnectToHost:(NSString *)host port:(uint16_t)port;
+
 - (void)didReceiveData:(NSData *)data tag:(long)tag;
 
 @end
